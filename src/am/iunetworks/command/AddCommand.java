@@ -6,6 +6,9 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 
+/**
+ * For adding contact 
+ */
 public class AddCommand implements BaseCommand {
     @Override
     public void execute(Contact contact, File file) {
